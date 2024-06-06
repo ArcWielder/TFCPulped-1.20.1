@@ -1,3 +1,25 @@
 {
-  "item.tfcpulped.unrefined_paper": "Unrefined Paper"
+  "item.tfcpulped.acacia_sawdust": "Acacia Sawdust",
+  "item.tfcpulped.ash_sawdust": "Ash Sawdust",
+  "item.tfcpulped.aspen_sawdust": "Aspen Sawdust",
+  "item.tfcpulped.birch_sawdust": "Birch Sawdust",
+  "item.tfcpulped.blackwood_sawdust": "Blackwood Sawdust",
+  "item.tfcpulped.chestnut_sawdust": "Chestnut Sawdust",
+  "item.tfcpulped.douglas_fir_sawdust": "Douglas Fir Sawdust",
+  "item.tfcpulped.hickory_sawdust": "Hickory Sawdust",
+  "item.tfcpulped.kapok_sawdust": "Kapok Sawdust",
+  "item.tfcpulped.mangrove_sawdust": "Mangrove Sawdust",
+  "item.tfcpulped.maple_sawdust": "Maple Sawdust",
+  "item.tfcpulped.oak_sawdust": "Oak Sawdust",
+  "item.tfcpulped.palm_sawdust": "Palm Sawdust",
+  "item.tfcpulped.pine_sawdust": "Pine Sawdust",
+  "item.tfcpulped.rosewood_sawdust": "Rosewood Sawdust",
+  "item.tfcpulped.sequoia_sawdust": "Sequoia Sawdust",
+  "item.tfcpulped.spruce_sawdust": "Spruce Sawdust",
+  "item.tfcpulped.sycamore_sawdust": "Sycamore Sawdust",
+  "item.tfcpulped.white_cedar_sawdust": "White Cedar Sawdust",
+  "item.tfcpulped.willow_sawdust": "Willow Sawdust",
+  "item.tfcpulped.dried_pulp_sheet": "Dried Pulp Sheet",
+  "item.tfcpulped.papyrus": "Papyrus"
+
 }
