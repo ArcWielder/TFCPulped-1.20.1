@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:wood/stripped_log/mangrove",
+    "tfc:wood/stripped_wood/mangrove"
+  ]
+}
