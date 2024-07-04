@@ -51,10 +51,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WILLOW_BARK = ITEMS.register("willow_bark",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> DRIED_PULP_SHEET = ITEMS.register("dried_pulp_sheet",
-            () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> PAPYRUS = ITEMS.register("papyrus",
-            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
