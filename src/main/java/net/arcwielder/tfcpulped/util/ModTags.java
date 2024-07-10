@@ -8,6 +8,8 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
+import javax.swing.text.html.HTML;
+
 public class ModTags {
     public static class Blocks {
 
@@ -17,26 +19,28 @@ public class ModTags {
     }
 
     public static class Items {
-        public static final TagKey<Item> STRIPPED_ACACIA = tag("stripped_acacia");
-        public static final TagKey<Item> STRIPPED_ASH = tag("stripped_ash");
-        public static final TagKey<Item> STRIPPED_ASPEN = tag("stripped_aspen");
-        public static final TagKey<Item> STRIPPED_BIRCH = tag("stripped_birch");
-        public static final TagKey<Item> STRIPPED_BLACKWOOD = tag("stripped_blackwood");
-        public static final TagKey<Item> STRIPPED_CHESTNUT = tag("stripped_chestnut");
-        public static final TagKey<Item> STRIPPED_DOUGLAS_FIR = tag("stripped_douglas_fir");
-        public static final TagKey<Item> STRIPPED_HICKORY = tag("stripped_hickory");
-        public static final TagKey<Item> STRIPPED_KAPOK = tag("stripped_kapok");
-        public static final TagKey<Item> STRIPPED_MANGROVE = tag("stripped_mangrove");
-        public static final TagKey<Item> STRIPPED_MAPLE = tag("stripped_maple");
-        public static final TagKey<Item> STRIPPED_OAK = tag("stripped_oak");
-        public static final TagKey<Item> STRIPPED_PALM = tag("stripped_palm");
-        public static final TagKey<Item> STRIPPED_PINE = tag("stripped_pine");
-        public static final TagKey<Item> STRIPPED_ROSEWOOD = tag("stripped_rosewood");
-        public static final TagKey<Item> STRIPPED_SEQUOIA = tag("stripped_sequoia");
-        public static final TagKey<Item> STRIPPED_SPRUCE = tag("stripped_spruce");
-        public static final TagKey<Item> STRIPPED_SYCAMORE = tag("stripped_sycamore");
-        public static final TagKey<Item> STRIPPED_WHITE_CEDAR = tag("stripped_white_cedar");
-        public static final TagKey<Item> STRIPPED_WILLOW = tag("stripped_willow");
+        public static final TagKey<Item> STRIPPED_ACACIA_LOGS = tag("stripped_acacia_logs");
+        public static final TagKey<Item> STRIPPED_ASH_LOGS = tag("stripped_ash_logs");
+        public static final TagKey<Item> STRIPPED_ASPEN_LOGS = tag("stripped_aspen_logs");
+        public static final TagKey<Item> STRIPPED_BIRCH_LOGS = tag("stripped_birch_logs");
+        public static final TagKey<Item> STRIPPED_BLACKWOOD_LOGS = tag("stripped_blackwood_logs");
+        public static final TagKey<Item> STRIPPED_CHESTNUT_LOGS = tag("stripped_chestnut_logs");
+        public static final TagKey<Item> STRIPPED_DOUGLAS_FIR_LOGS = tag("stripped_douglas_fir_logs");
+        public static final TagKey<Item> STRIPPED_HICKORY_LOGS = tag("stripped_hickory_logs");
+        public static final TagKey<Item> STRIPPED_KAPOK_LOGS = tag("stripped_kapok_logs");
+        public static final TagKey<Item> STRIPPED_MANGROVE_LOGS = tag("stripped_mangrove_logs");
+        public static final TagKey<Item> STRIPPED_MAPLE_LOGS = tag("stripped_maple_logs");
+        public static final TagKey<Item> STRIPPED_OAK_LOGS = tag("stripped_oak_logs");
+        public static final TagKey<Item> STRIPPED_PALM_LOGS = tag("stripped_palm_logs");
+        public static final TagKey<Item> STRIPPED_PINE_LOGS = tag("stripped_pine_logs");
+        public static final TagKey<Item> STRIPPED_ROSEWOOD_LOGS = tag("stripped_rosewood_logs");
+        public static final TagKey<Item> STRIPPED_SEQUOIA_LOGS = tag("stripped_sequoia_logs");
+        public static final TagKey<Item> STRIPPED_SPRUCE_LOGS = tag("stripped_spruce_logs");
+        public static final TagKey<Item> STRIPPED_SYCAMORE_LOGS = tag("stripped_sycamore_logs");
+        public static final TagKey<Item> STRIPPED_WHITE_CEDAR_LOGS = tag("stripped_white_cedar_logs");
+        public static final TagKey<Item> STRIPPED_WILLOW_LOGS = tag("stripped_willow_logs");
+        public static final TagKey<Item> TREE_BARKS = tag("tree_barks");
+        public static final TagKey<Item> WOOD_CHIPS = tag("wood_chips");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(TFCPulped.MOD_ID, name));

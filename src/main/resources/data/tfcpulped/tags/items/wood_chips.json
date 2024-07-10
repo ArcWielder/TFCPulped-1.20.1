@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfcpulped:acacia_chips",
+    "tfcpulped:ash_chips",
+    "tfcpulped:aspen_chips",
+    "tfcpulped:birch_chips",
+    "tfcpulped:blackwood_chips",
+    "tfcpulped:chestnut_chips",
+    "tfcpulped:douglas_fir_chips",
+    "tfcpulped:hickory_chips",
+    "tfcpulped:kapok_chips",
+    "tfcpulped:mangrove_chips",
+    "tfcpulped:maple_chips",
+    "tfcpulped:oak_chips",
+    "tfcpulped:palm_chips",
+    "tfcpulped:pine_chips",
+    "tfcpulped:rosewood_chips",
+    "tfcpulped:sequoia_chips",
+    "tfcpulped:spruce_chips",
+    "tfcpulped:sycamore_chips",
+    "tfcpulped:white_cedar_chips",
+    "tfcpulped:willow_chips"
+  ]
+}

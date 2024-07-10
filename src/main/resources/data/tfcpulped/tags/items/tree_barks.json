@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfcpulped:acacia_bark",
+    "tfcpulped:ash_bark",
+    "tfcpulped:aspen_bark",
+    "tfcpulped:birch_bark",
+    "tfcpulped:blackwood_bark",
+    "tfcpulped:chestnut_bark",
+    "tfcpulped:douglas_fir_bark",
+    "tfcpulped:hickory_bark",
+    "tfcpulped:kapok_bark",
+    "tfcpulped:mangrove_bark",
+    "tfcpulped:maple_bark",
+    "tfcpulped:oak_bark",
+    "tfcpulped:palm_bark",
+    "tfcpulped:pine_bark",
+    "tfcpulped:rosewood_bark",
+    "tfcpulped:sequoia_bark",
+    "tfcpulped:spruce_bark",
+    "tfcpulped:sycamore_bark",
+    "tfcpulped:white_cedar_bark",
+    "tfcpulped:willow_bark"
+  ]
+}

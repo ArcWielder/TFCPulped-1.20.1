@@ -51,6 +51,46 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WILLOW_BARK = ITEMS.register("willow_bark",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ACACIA_CHIPS = ITEMS.register("acacia_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ASH_CHIPS = ITEMS.register("ash_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ASPEN_CHIPS = ITEMS.register("aspen_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BIRCH_CHIPS = ITEMS.register("birch_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLACKWOOD_CHIPS= ITEMS.register("blackwood_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CHESTNUT_CHIPS = ITEMS.register("chestnut_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DOUGLAS_FIR_CHIPS = ITEMS.register("douglas_fir_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HICKORY_CHIPS = ITEMS.register("hickory_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KAPOK_CHIPS = ITEMS.register("kapok_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MANGROVE_CHIPS = ITEMS.register("mangrove_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MAPLE_CHIPS = ITEMS.register("maple_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> OAK_CHIPS = ITEMS.register("oak_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PALM_CHIPS = ITEMS.register("palm_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PINE_CHIPS = ITEMS.register("pine_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROSEWOOD_CHIPS = ITEMS.register("rosewood_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SEQUOIA_CHIPS = ITEMS.register("sequoia_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SPRUCE_CHIPS = ITEMS.register("spruce_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SYCAMORE_CHIPS = ITEMS.register("sycamore_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WHITE_CEDAR_CHIPS = ITEMS.register("white_cedar_chips",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WILLOW_CHIPS = ITEMS.register("willow_chips",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
