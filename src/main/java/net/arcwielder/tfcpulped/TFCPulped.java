@@ -1,9 +1,15 @@
 package net.arcwielder.tfcpulped;
 
 import com.mojang.logging.LogUtils;
+import net.arcwielder.tfcpulped.block.custom.ModBlocks;
+import net.arcwielder.tfcpulped.fluid.ModFluidTypes;
+import net.arcwielder.tfcpulped.fluid.ModFluids;
 import net.arcwielder.tfcpulped.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.ScreenEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -25,11 +31,15 @@ public class TFCPulped {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
+        ModFluids.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -53,7 +63,8 @@ public class TFCPulped {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_WOOD_PULP.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_WOOD_PULP.get(), RenderType.translucent());
         }
     }
 }

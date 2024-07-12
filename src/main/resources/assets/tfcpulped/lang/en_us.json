@@ -19,6 +19,7 @@
   "item.tfcpulped.sycamore_bark": "Sycamore Bark",
   "item.tfcpulped.white_cedar_bark": "White Cedar Bark",
   "item.tfcpulped.willow_bark": "Willow Bark",
+
   "item.tfcpulped.acacia_chips": "Acacia Chips",
   "item.tfcpulped.ash_chips": "Ash Chips",
   "item.tfcpulped.aspen_chips": "Aspen Chips",
@@ -38,5 +39,7 @@
   "item.tfcpulped.spruce_chips": "Spruce Chips",
   "item.tfcpulped.sycamore_chips": "Sycamore Chips",
   "item.tfcpulped.white_cedar_chips": "White Cedar Chips",
-  "item.tfcpulped.willow_chips": "Willow Chips"
+  "item.tfcpulped.willow_chips": "Willow Chips",
+
+  "item.tfcpulped.wood_pulp_bucket": "Wood Pulp Bucket"
 }
