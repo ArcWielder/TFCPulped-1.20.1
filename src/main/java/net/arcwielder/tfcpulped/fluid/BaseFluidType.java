@@ -82,8 +82,8 @@ public class BaseFluidType extends FluidType {
             @Override
             public void modifyFogRender(Camera camera, FogRenderer.FogMode mode, float renderDistance, float partialTick,
                                         float nearDistance, float farDistance, FogShape shape) {
-                RenderSystem.setShaderFogStart(1);
-                RenderSystem.setShaderFogEnd(1);
+                RenderSystem.setShaderFogStart(3);
+                RenderSystem.setShaderFogEnd(3);
             }
         });
     }

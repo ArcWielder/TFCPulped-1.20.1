@@ -17,14 +17,14 @@ public class ModFluids {
     public static final DeferredRegister<Fluid> FLUIDS =
             DeferredRegister.create(ForgeRegistries.FLUIDS, TFCPulped.MOD_ID);
 
-    public static final RegistryObject<FlowingFluid> SOURCE_WOOD_PULP = FLUIDS.register("wood_pulp_fluid",
+    public static final RegistryObject<FlowingFluid> SOURCE_RAW_WOOD_PULP = FLUIDS.register("wood_pulp_fluid",
             () -> new ForgeFlowingFluid.Source(ModFluids.WOOD_PULP_FLUID_PROPERTIES));
-    public static final RegistryObject<FlowingFluid> FLOWING_WOOD_PULP = FLUIDS.register("flowing_wood_pulp",
+    public static final RegistryObject<FlowingFluid> FLOWING_RAW_WOOD_PULP = FLUIDS.register("flowing_wood_pulp",
             () -> new ForgeFlowingFluid.Flowing(ModFluids.WOOD_PULP_FLUID_PROPERTIES));
 
     public static final ForgeFlowingFluid.Properties WOOD_PULP_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
-            ModFluidTypes.WOOD_PULP_FLUID_TYPE, SOURCE_WOOD_PULP, FLOWING_WOOD_PULP)
-            .slopeFindDistance(2).levelDecreasePerBlock(4).block(ModBlocks.WOOD_PULP_BLOCK).bucket(ModItems.WOOD_PULP_BUCKET);
+            ModFluidTypes.WOOD_PULP_FLUID_TYPE, SOURCE_RAW_WOOD_PULP, FLOWING_RAW_WOOD_PULP)
+            .slopeFindDistance(2).levelDecreasePerBlock(4).block(ModBlocks.WOOD_PULP_BLOCK).bucket(ModItems.RAW_WOOD_PULP_BUCKET);
 
 
     public static void register(IEventBus eventBus) {

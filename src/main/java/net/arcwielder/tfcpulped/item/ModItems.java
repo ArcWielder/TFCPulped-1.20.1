@@ -95,8 +95,8 @@ public class ModItems {
     public static final RegistryObject<Item> WILLOW_CHIPS = ITEMS.register("willow_chips",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> WOOD_PULP_BUCKET = ITEMS.register("wood_pulp_bucket",
-            () -> new BucketItem(ModFluids.SOURCE_WOOD_PULP,
+    public static final RegistryObject<Item> RAW_WOOD_PULP_BUCKET = ITEMS.register("raw_wood_pulp_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_RAW_WOOD_PULP,
                     new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET)));
 
     public static void register(IEventBus eventBus) {

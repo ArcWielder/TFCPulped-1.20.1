@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tfcpulped:item/wood_pulp_bucket"
+    "layer0": "tfcpulped:item/raw_wood_pulp_bucket"
   }
 }

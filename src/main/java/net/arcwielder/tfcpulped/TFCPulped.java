@@ -63,8 +63,6 @@ public class TFCPulped {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_WOOD_PULP.get(), RenderType.translucent());
-            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_WOOD_PULP.get(), RenderType.translucent());
         }
     }
 }

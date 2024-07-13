@@ -41,5 +41,6 @@
   "item.tfcpulped.white_cedar_chips": "White Cedar Chips",
   "item.tfcpulped.willow_chips": "Willow Chips",
 
-  "item.tfcpulped.wood_pulp_bucket": "Wood Pulp Bucket"
+  "item.tfcpulped.raw_wood_pulp_bucket": "Raw Wood Pulp Bucket",
+  "block.tfcpulped.raw_wood_pulp_block": "Raw Wood Pulp"
 }

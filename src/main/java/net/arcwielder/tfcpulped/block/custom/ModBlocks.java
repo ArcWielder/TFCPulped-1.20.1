@@ -16,7 +16,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TFCPulped.MOD_ID);
 
     public static final RegistryObject<LiquidBlock> WOOD_PULP_BLOCK = BLOCKS.register("wood_pulp_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_WOOD_PULP, BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new LiquidBlock(ModFluids.SOURCE_RAW_WOOD_PULP, BlockBehaviour.Properties.copy(Blocks.WATER)));
 
     public static void register(IEventBus eventBus) { BLOCKS.register(eventBus); }
 }
