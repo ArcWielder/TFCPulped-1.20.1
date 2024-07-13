@@ -1,0 +1,9 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "tfc:wood/lumber/willow"
+  },
+  "result": {
+    "item": "tfcpulped:wood_chips/willow"
+  }
+}

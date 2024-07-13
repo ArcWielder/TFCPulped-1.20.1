@@ -17,9 +17,9 @@ public class ModFluids {
     public static final DeferredRegister<Fluid> FLUIDS =
             DeferredRegister.create(ForgeRegistries.FLUIDS, TFCPulped.MOD_ID);
 
-    public static final RegistryObject<FlowingFluid> SOURCE_RAW_WOOD_PULP = FLUIDS.register("wood_pulp_fluid",
+    public static final RegistryObject<FlowingFluid> SOURCE_RAW_WOOD_PULP = FLUIDS.register("raw_wood_pulp_fluid",
             () -> new ForgeFlowingFluid.Source(ModFluids.WOOD_PULP_FLUID_PROPERTIES));
-    public static final RegistryObject<FlowingFluid> FLOWING_RAW_WOOD_PULP = FLUIDS.register("flowing_wood_pulp",
+    public static final RegistryObject<FlowingFluid> FLOWING_RAW_WOOD_PULP = FLUIDS.register("flowing_raw_wood_pulp",
             () -> new ForgeFlowingFluid.Flowing(ModFluids.WOOD_PULP_FLUID_PROPERTIES));
 
     public static final ForgeFlowingFluid.Properties WOOD_PULP_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(

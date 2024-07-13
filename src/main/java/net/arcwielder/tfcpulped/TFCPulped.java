@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.arcwielder.tfcpulped.block.custom.ModBlocks;
 import net.arcwielder.tfcpulped.fluid.ModFluidTypes;
 import net.arcwielder.tfcpulped.fluid.ModFluids;
+import net.arcwielder.tfcpulped.item.ModCreativeModeTabs;
 import net.arcwielder.tfcpulped.item.ModItems;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -29,6 +30,8 @@ public class TFCPulped {
 
     public TFCPulped() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
