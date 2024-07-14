@@ -98,7 +98,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_WOOD_PULP_BUCKET = ITEMS.register("raw_wood_pulp_bucket",
             () -> new BucketItem(ModFluids.SOURCE_RAW_WOOD_PULP,
-                    new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET)));
+                    new Item.Properties()
+                            .stacksTo(1)
+                            .craftRemainder(Items.BUCKET)));
+    public static final RegistryObject<Item> BLEACHED_WOOD_PULP_BUCKET = ITEMS.register("bleached_wood_pulp_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_BLEACHED_WOOD_PULP,
+                    new Item.Properties()
+                            .stacksTo(1)
+                            .craftRemainder(Items.BUCKET)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

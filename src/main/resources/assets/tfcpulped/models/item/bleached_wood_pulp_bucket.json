@@ -4,5 +4,5 @@
   "textures": {
     "base": "item/bucket"
   },
-  "fluid": "tfcpulped:raw_wood_pulp"
+  "fluid": "tfcpulped:bleached_wood_pulp"
 }

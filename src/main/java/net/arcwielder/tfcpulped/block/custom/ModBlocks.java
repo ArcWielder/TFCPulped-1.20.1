@@ -15,8 +15,10 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TFCPulped.MOD_ID);
 
-    public static final RegistryObject<LiquidBlock> WOOD_PULP_BLOCK = BLOCKS.register("wood_pulp_block",
+    public static final RegistryObject<LiquidBlock> RAW_WOOD_PULP_BLOCK = BLOCKS.register("raw_wood_pulp_block",
             () -> new LiquidBlock(ModFluids.SOURCE_RAW_WOOD_PULP, BlockBehaviour.Properties.copy(Blocks.WATER)));
+    public static final RegistryObject<LiquidBlock> BLEACHED_WOOD_PULP_BLOCK = BLOCKS.register("bleached_wood_pulp_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_BLEACHED_WOOD_PULP, BlockBehaviour.Properties.copy(Blocks.WATER)));
 
     public static void register(IEventBus eventBus) { BLOCKS.register(eventBus); }
 }
