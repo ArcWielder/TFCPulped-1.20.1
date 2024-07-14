@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "tfcpulped:block/raw_wood_pulp_flowing"
-  }
-}

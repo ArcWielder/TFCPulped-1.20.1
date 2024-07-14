@@ -1,9 +1,0 @@
-{
-  "type": "tfc:quern",
-  "ingredient": {
-    "item": "tfc:wood/lumber/oak"
-  },
-  "result": {
-    "item": "tfcpulped:wood_chips/oak"
-  }
-}
