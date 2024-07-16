@@ -1,0 +1,9 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "tfc:wood/lumber/rosewood"
+  },
+  "result": {
+    "item": "tfcpulped:wood_chips/rosewood"
+  }
+}

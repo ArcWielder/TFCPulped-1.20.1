@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfcpulped:wood_chips/acacia",
+    "tfcpulped:wood_chips/ash",
+    "tfcpulped:wood_chips/aspen",
+    "tfcpulped:wood_chips/birch",
+    "tfcpulped:wood_chips/blackwood",
+    "tfcpulped:wood_chips/chestnut",
+    "tfcpulped:wood_chips/douglas_fir",
+    "tfcpulped:wood_chips/hickory",
+    "tfcpulped:wood_chips/kapok",
+    "tfcpulped:wood_chips/mangrove",
+    "tfcpulped:wood_chips/maple",
+    "tfcpulped:wood_chips/oak",
+    "tfcpulped:wood_chips/palm",
+    "tfcpulped:wood_chips/pine",
+    "tfcpulped:wood_chips/rosewood",
+    "tfcpulped:wood_chips/sequoia",
+    "tfcpulped:wood_chips/spruce",
+    "tfcpulped:wood_chips/sycamore",
+    "tfcpulped:wood_chips/white_cedar",
+    "tfcpulped:wood_chips/willow"
+  ]
+}

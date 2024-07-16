@@ -1,0 +1,30 @@
+{
+  "type": "tfc:pot",
+  "ingredients": [
+    {
+      "tag": "tfcpulped:wood_chips"
+    },
+    {
+      "tag": "tfcpulped:wood_chips"
+    },
+    {
+      "tag": "tfcpulped:wood_chips"
+    },
+    {
+      "tag": "tfcpulped:wood_chips"
+    },
+    {
+      "item": "tfc:powder/wood_ash"
+    }
+  ],
+  "fluid_ingredient": {
+    "ingredient": "minecraft:water",
+    "amount": 1000
+  },
+  "duration": 0,
+  "temperature": 600,
+  "fluid_output": {
+    "fluid": "tfcpulped:raw_wood_pulp",
+    "amount": 100
+  }
+}

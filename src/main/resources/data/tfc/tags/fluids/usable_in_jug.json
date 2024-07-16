@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#tfc:drinkables",
+    "tfcpulped:raw_wood_pulp",
+    "tfcpulped:bleached_wood_pulp"
+  ]
+}

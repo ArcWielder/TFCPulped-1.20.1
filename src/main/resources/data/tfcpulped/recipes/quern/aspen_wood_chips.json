@@ -1,0 +1,9 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "tfc:wood/lumber/aspen"
+  },
+  "result": {
+    "item": "tfcpulped:wood_chips/aspen"
+  }
+}
