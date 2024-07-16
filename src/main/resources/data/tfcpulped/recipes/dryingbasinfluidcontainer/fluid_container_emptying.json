@@ -1,0 +1,11 @@
+{
+  "type": "tfcpulped:drying_basin_fluid_container_emptying",
+  "ingredients": [
+    {
+      "tag": "can_be_emptied_into_drying_basin"
+    }
+  ],
+  "output": {
+    "item": "minecraft:bucket"
+  }
+}

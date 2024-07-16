@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:water_bucket",
+    "minecraft:lava_bucket",
+    "tfcpulped:raw_wood_pulp_bucket",
+    "tfcpulped:bleached_wood_pulp_bucket"
+  ]
+}
