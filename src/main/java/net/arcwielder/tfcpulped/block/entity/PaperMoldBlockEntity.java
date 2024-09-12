@@ -34,7 +34,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
 
-public class DryingBasinBlockEntity extends BlockEntity implements MenuProvider {
+public class PaperMoldBlockEntity extends BlockEntity implements MenuProvider {
     private final ItemStackHandler itemHandler = new ItemStackHandler(3) {
         @Override
         protected void onContentsChanged(int slot) {
@@ -55,7 +55,7 @@ public class DryingBasinBlockEntity extends BlockEntity implements MenuProvider 
     private int progress = 0;
     private int maxProgress = 78;
 
-    public DryingBasinBlockEntity(BlockPos pPos, BlockState pBlockState) {
+    public PaperMoldBlockEntity(BlockPos pPos, BlockState pBlockState) {
         super(ModBlockEntities.DRYING_BASIN_BE.get(), pPos, pBlockState);
         this.data = new ContainerData() {
             @Override
@@ -127,7 +127,7 @@ public class DryingBasinBlockEntity extends BlockEntity implements MenuProvider 
     @Nullable
     @Override
     public AbstractContainerMenu createMenu(int pContainerId, Inventory pPlayerInventory, Player pPlayer) {
-        return new DryingBasinMenu(pContainerId, pPlayerInventory, this, this.data);
+        return new PaperMoldMenu(pContainerId, pPlayerInventory, this, this.data);
     }
 
     @Override
@@ -160,7 +160,7 @@ public class DryingBasinBlockEntity extends BlockEntity implements MenuProvider 
     }
 
     private boolean hasRecipe() {
-        Optional<DryingBasinFluidContainerEmptyingRecipe> recipe = getCurrentRecipe();
+        Optional<PaperFormingRecipe> recipe = getCurrentRecipe();
 
         if(recipe.isEmpty()) {
             return false;
@@ -170,13 +170,13 @@ public class DryingBasinBlockEntity extends BlockEntity implements MenuProvider 
         return canInsertAmountIntoOutputSlot(result.getCount()) && canInsertItemIntoOutputSlot(result.getItem());
     }
 
-    private Optional<DryingBasinFluidContainerEmptyingRecipe> getCurrentRecipe() {
+    private Optional<PaperFormingRecipe> getCurrentRecipe() {
         SimpleContainer inventory = new SimpleContainer(this.itemHandler.getSlots());
         for(int i = 0; i < itemHandler.getSlots(); i++) {
             inventory.setItem(i, this.itemHandler.getStackInSlot(i));
         }
 
-        return this.level.getRecipeManager().getRecipeFor(DryingBasinFluidContainerEmptyingRecipe.Type.INSTANCE, inventory, level);
+        return this.level.getRecipeManager().getRecipeFor(PaperFormingRecipe.Type.INSTANCE, inventory, level);
     }
 
     private boolean canInsertItemIntoOutputSlot(Item item) {
@@ -196,7 +196,7 @@ public class DryingBasinBlockEntity extends BlockEntity implements MenuProvider 
     }
 
     private void craftItem() {
-        Optional<DryingBasinFluidContainerEmptyingRecipe> recipe = getCurrentRecipe();
+        Optional<PaperFormingRecipe> recipe = getCurrentRecipe();
         ItemStack result = recipe.get().getResultItem(null);
 
         this.itemHandler.extractItem(FLUID_CONTAINER_INPUT_SLOT, 1, false);

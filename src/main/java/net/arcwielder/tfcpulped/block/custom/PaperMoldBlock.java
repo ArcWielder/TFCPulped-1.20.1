@@ -1,7 +1,7 @@
 package net.arcwielder.tfcpulped.block.custom;
 
 import com.google.common.graph.Network;
-import net.arcwielder.tfcpulped.block.entity.DryingBasinBlockEntity;
+import net.arcwielder.tfcpulped.block.entity.PaperMoldBlockEntity;
 import net.arcwielder.tfcpulped.block.entity.ModBlockEntities;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
@@ -23,10 +23,10 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.network.NetworkHooks;
 import org.jetbrains.annotations.Nullable;
 
-public class DryingBasinBlock extends BaseEntityBlock {
+public class PaperMoldBlock extends BaseEntityBlock {
     public static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 8, 16);
 
-    public DryingBasinBlock(Properties pProperties) {
+    public PaperMoldBlock(Properties pProperties) {
         super(pProperties);
     }
 
@@ -44,8 +44,8 @@ public class DryingBasinBlock extends BaseEntityBlock {
     public void onRemove(BlockState pState, Level pLevel, BlockPos pPos, BlockState pNewState, boolean pIsMoving) {
         if (pState.getBlock() != pNewState.getBlock()) {
             BlockEntity blockEntity = pLevel.getBlockEntity(pPos);
-            if (blockEntity instanceof DryingBasinBlockEntity) {
-                ((DryingBasinBlockEntity) blockEntity).drops();
+            if (blockEntity instanceof PaperMoldBlockEntity) {
+                ((PaperMoldBlockEntity) blockEntity).drops();
             }
         }
 
@@ -56,8 +56,8 @@ public class DryingBasinBlock extends BaseEntityBlock {
     public InteractionResult use (BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
         if (!pLevel.isClientSide()) {
             BlockEntity entity = pLevel.getBlockEntity(pPos);
-            if(entity instanceof DryingBasinBlockEntity) {
-                NetworkHooks.openScreen((ServerPlayer)pPlayer, (DryingBasinBlockEntity)entity, pPos);
+            if(entity instanceof PaperMoldBlockEntity) {
+                NetworkHooks.openScreen((ServerPlayer)pPlayer, (PaperMoldBlockEntity)entity, pPos);
             } else {
                 throw new IllegalStateException("Our Container Provider is Missing!");
             }
@@ -69,7 +69,7 @@ public class DryingBasinBlock extends BaseEntityBlock {
     @Nullable
     @Override
     public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
-        return new DryingBasinBlockEntity(pPos, pState);
+        return new PaperMoldBlockEntity(pPos, pState);
     }
 
     @Nullable
