@@ -16,7 +16,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(ModBlocks.DRYING_BASIN.get());
+
     }
 
 

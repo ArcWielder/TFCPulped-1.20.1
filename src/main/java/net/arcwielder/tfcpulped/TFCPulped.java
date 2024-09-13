@@ -6,8 +6,6 @@ import net.arcwielder.tfcpulped.fluid.ModFluidTypes;
 import net.arcwielder.tfcpulped.fluid.ModFluids;
 import net.arcwielder.tfcpulped.item.ModCreativeModeTabs;
 import net.arcwielder.tfcpulped.item.ModItems;
-import net.arcwielder.tfcpulped.recipe.ModRecipes;
-import net.arcwielder.tfcpulped.screen.ModMenuTypes;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -33,10 +31,6 @@ public class TFCPulped {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
-        ModMenuTypes.register(modEventBus);
-
-        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
