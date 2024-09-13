@@ -1,7 +1,6 @@
 package net.arcwielder.tfcpulped.block;
 
 import net.arcwielder.tfcpulped.TFCPulped;
-import net.arcwielder.tfcpulped.block.custom.PaperMoldBlock;
 import net.arcwielder.tfcpulped.fluid.ModFluids;
 import net.arcwielder.tfcpulped.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -26,8 +25,7 @@ public class ModBlocks {
             () -> new LiquidBlock(ModFluids.SOURCE_RAW_WOOD_PULP, BlockBehaviour.Properties.copy(Blocks.WATER)));
     public static final RegistryObject<LiquidBlock> BLEACHED_WOOD_PULP_BLOCK = BLOCKS.register("bleached_wood_pulp_block",
             () -> new LiquidBlock(ModFluids.SOURCE_BLEACHED_WOOD_PULP, BlockBehaviour.Properties.copy(Blocks.WATER)));
-    public static final RegistryObject<PaperMoldBlock> PAPER_MOLD_BLOCK = BLOCKS.register("bleached_wood_pulp_block",
-            () -> new LiquidBlock(ModBlocks.PAPER_MOLD_BLOCK, BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+
 
     public static final RegistryObject<Block> DRYING_BASIN = registerBlock("drying_basin",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
