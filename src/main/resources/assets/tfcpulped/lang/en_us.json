@@ -49,6 +49,26 @@
   "fluid_type.tfcpulped.raw_wood_pulp_fluid": "Raw Wood Pulp",
   "fluid_type.tfcpulped.bleached_wood_pulp_fluid": "Bleached Wood Pulp",
 
+  "block.tfcpulped.forming_basin.acacia": "Acacia Forming Basin",
+  "block.tfcpulped.forming_basin.ash": "Ash Forming Basin",
+  "block.tfcpulped.forming_basin.aspen": "Aspen Forming Basin",
+  "block.tfcpulped.forming_basin.birch": "Birch Forming Basin",
+  "block.tfcpulped.forming_basin.blackwood": "Blackwood Forming Basin",
+  "block.tfcpulped.forming_basin.chestnut": "Chestnut Forming Basin",
+  "block.tfcpulped.forming_basin.douglas_fir": "Douglas Fir Forming Basin",
+  "block.tfcpulped.forming_basin.hickory": "Hickory Forming Basin",
+  "block.tfcpulped.forming_basin.kapok": "Kapok Forming Basin",
+  "block.tfcpulped.forming_basin.mangrove": "Mangrove Forming Basin",
+  "block.tfcpulped.forming_basin.maple": "Maple Forming Basin",
+  "block.tfcpulped.forming_basin.oak": "Oak Forming Basin",
+  "block.tfcpulped.forming_basin.palm": "Palm Forming Basin",
+  "block.tfcpulped.forming_basin.pine": "Pine Forming Basin",
+  "block.tfcpulped.forming_basin.rosewood": "Rosewood Forming Basin",
+  "block.tfcpulped.forming_basin.sequoia": "Sequoia Forming Basin",
+  "block.tfcpulped.forming_basin.spruce": "Spruce Forming Basin",
+  "block.tfcpulped.forming_basin.sycamore": "Sycamore Forming Basin",
+  "block.tfcpulped.forming_basin.white_cedar": "White Cedar Forming Basin",
+  "block.tfcpulped.forming_basin.willow": "Willow Forming Basin",
 
   "creativetab.tfc_pulped": "TFC Pulped"
 }

@@ -61,7 +61,26 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WILLOW_CHIPS.get());
                         output.accept(ModItems.RAW_WOOD_PULP_BUCKET.get());
                         output.accept(ModItems.BLEACHED_WOOD_PULP_BUCKET.get());
-                        output.accept(ModBlocks.DRYING_BASIN.get());
+                        output.accept(ModBlocks.FORMING_BASIN_ACACIA.get());
+                        output.accept(ModBlocks.FORMING_BASIN_ASH.get());
+                        output.accept(ModBlocks.FORMING_BASIN_ASPEN.get());
+                        output.accept(ModBlocks.FORMING_BASIN_BIRCH.get());
+                        output.accept(ModBlocks.FORMING_BASIN_BLACKWOOD.get());
+                        output.accept(ModBlocks.FORMING_BASIN_CHESTNUT.get());
+                        output.accept(ModBlocks.FORMING_BASIN_DOUGLAS_FIR.get());
+                        output.accept(ModBlocks.FORMING_BASIN_HICKORY.get());
+                        output.accept(ModBlocks.FORMING_BASIN_KAPOK.get());
+                        output.accept(ModBlocks.FORMING_BASIN_MANGROVE.get());
+                        output.accept(ModBlocks.FORMING_BASIN_MAPLE.get());
+                        output.accept(ModBlocks.FORMING_BASIN_OAK.get());
+                        output.accept(ModBlocks.FORMING_BASIN_PALM.get());
+                        output.accept(ModBlocks.FORMING_BASIN_PINE.get());
+                        output.accept(ModBlocks.FORMING_BASIN_ROSEWOOD.get());
+                        output.accept(ModBlocks.FORMING_BASIN_SEQUOIA.get());
+                        output.accept(ModBlocks.FORMING_BASIN_SPRUCE.get());
+                        output.accept(ModBlocks.FORMING_BASIN_SYCAMORE.get());
+                        output.accept(ModBlocks.FORMING_BASIN_WHITE_CEDAR.get());
+                        output.accept(ModBlocks.FORMING_BASIN_WILLOW.get());
                     })
                     .build());
 
