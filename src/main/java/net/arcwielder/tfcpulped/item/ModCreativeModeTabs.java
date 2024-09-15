@@ -81,6 +81,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.FORMING_BASIN_SYCAMORE.get());
                         output.accept(ModBlocks.FORMING_BASIN_WHITE_CEDAR.get());
                         output.accept(ModBlocks.FORMING_BASIN_WILLOW.get());
+                        output.accept(ModItems.DRIED_PULP_SHEET.get());
+                        output.accept(ModItems.LIMED_PULP_SHEET.get());
+                        output.accept(ModItems.REFINED_PULP_SHEET.get());
                     })
                     .build());
 

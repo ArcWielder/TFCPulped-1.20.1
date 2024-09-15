@@ -109,7 +109,12 @@ public class ModItems {
                             .stacksTo(1)
                             .craftRemainder(Items.BUCKET)));
 
-
+    public static final RegistryObject<Item> DRIED_PULP_SHEET = ITEMS.register("dried_pulp_sheet",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LIMED_PULP_SHEET = ITEMS.register("limed_pulp_sheet",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REFINED_PULP_SHEET = ITEMS.register("refined_pulp_sheet",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

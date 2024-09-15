@@ -34,8 +34,8 @@ public class ModFluidTypes {
                     .canPushEntity(false)
                     .supportsBoating(false)
                     .canConvertToSource(false)
-                    .sound(SoundAction.get("drink"),
-                    SoundEvents.HONEY_DRINK), RAW_WOOD_PULP_STILL_RL, RAW_WOOD_PULP_FLOWING_RL, WOOD_PULP_OVERLAY_RL);
+                    .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK),
+            RAW_WOOD_PULP_STILL_RL, RAW_WOOD_PULP_FLOWING_RL, WOOD_PULP_OVERLAY_RL);
     public static final RegistryObject<FluidType> BLEACHED_WOOD_PULP_FLUID_TYPE = register("bleached_wood_pulp_fluid",
             FluidType.Properties.create()
                     .sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
@@ -48,8 +48,8 @@ public class ModFluidTypes {
                     .canPushEntity(false)
                     .supportsBoating(false)
                     .canConvertToSource(false)
-                    .sound(SoundAction.get("drink"),
-                    SoundEvents.HONEY_DRINK), BLEACHED_WOOD_PULP_STILL_RL, BLEACHED_WOOD_PULP_FLOWING_RL, WOOD_PULP_OVERLAY_RL);
+                    .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK),
+            BLEACHED_WOOD_PULP_STILL_RL, BLEACHED_WOOD_PULP_FLOWING_RL, WOOD_PULP_OVERLAY_RL);
 
     private static RegistryObject<FluidType> register(String name, FluidType.Properties properties, ResourceLocation still, ResourceLocation flowing, ResourceLocation overlay) {
         return FLUID_TYPES.register(name, () -> new BaseFluidType(still, flowing, overlay,
