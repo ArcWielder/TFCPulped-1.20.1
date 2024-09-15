@@ -70,5 +70,9 @@
   "block.tfcpulped.forming_basin.white_cedar": "White Cedar Forming Basin",
   "block.tfcpulped.forming_basin.willow": "Willow Forming Basin",
 
+  "item.tfcpulped.dried_pulp_sheet": "Dried Pulp Sheet",
+  "item.tfcpulped.limed_pulp_sheet": "Limed Pulp Sheet",
+  "item.tfcpulped.refined_pulp_sheet": "Refined Pulp Sheet",
+
   "creativetab.tfc_pulped": "TFC Pulped"
 }
