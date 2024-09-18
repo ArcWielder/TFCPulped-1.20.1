@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "loot_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "tfc:wood/twig/acacia"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfc:wood/log/acacia"
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:survives_explosion"
+    }
+  ]
+}

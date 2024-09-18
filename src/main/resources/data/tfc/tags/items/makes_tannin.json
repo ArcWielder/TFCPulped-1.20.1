@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "tfcpulped:birch_bark",
-    "tfcpulped:chestnut_bark",
-    "tfcpulped:douglas_fir_bark",
-    "tfcpulped:hickory_bark",
-    "tfcpulped:maple_bark",
-    "tfcpulped:oak_bark",
-    "tfcpulped:sequoia_bark"
+    "tfcpulped:bark/birch",
+    "tfcpulped:bark/chestnut",
+    "tfcpulped:bark/douglas_fir",
+    "tfcpulped:bark/hickory",
+    "tfcpulped:bark/maple",
+    "tfcpulped:bark/oak",
+    "tfcpulped:bark/sequoia"
   ]
 }
