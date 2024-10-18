@@ -12,7 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.joml.Vector3f;
 
-public class ModFluidTypes {
+public class PulpedFluidTypes {
     public static final ResourceLocation RAW_WOOD_PULP_STILL_RL = new ResourceLocation("tfcpulped:block/raw_wood_pulp_still");
     public static final ResourceLocation RAW_WOOD_PULP_FLOWING_RL = new ResourceLocation("tfcpulped:block/raw_wood_pulp_flowing");
     public static final ResourceLocation BLEACHED_WOOD_PULP_STILL_RL = new ResourceLocation("tfcpulped:block/bleached_wood_pulp_still");

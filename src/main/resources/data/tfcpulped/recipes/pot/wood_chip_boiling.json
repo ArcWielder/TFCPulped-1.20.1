@@ -14,14 +14,14 @@
       "tag": "tfcpulped:wood_chips"
     },
     {
-      "item": "tfc:powder/wood_ash"
+      "item": "tfc:powder/charcoal"
     }
   ],
   "fluid_ingredient": {
-    "ingredient": "minecraft:water",
+    "ingredient": "tfc:lye",
     "amount": 1000
   },
-  "duration": 0,
+  "duration": 1200,
   "temperature": 600,
   "fluid_output": {
     "fluid": "tfcpulped:raw_wood_pulp",

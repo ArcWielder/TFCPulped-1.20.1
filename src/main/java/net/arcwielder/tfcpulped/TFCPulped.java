@@ -1,12 +1,13 @@
 package net.arcwielder.tfcpulped;
 
 import com.mojang.logging.LogUtils;
-import net.arcwielder.tfcpulped.block.ModBlocks;
-import net.arcwielder.tfcpulped.fluid.ModFluidTypes;
-import net.arcwielder.tfcpulped.fluid.ModFluids;
-import net.arcwielder.tfcpulped.item.ModCreativeModeTabs;
-import net.arcwielder.tfcpulped.item.ModItems;
+import net.arcwielder.tfcpulped.block.PulpedBlocks;
+import net.arcwielder.tfcpulped.fluid.PulpedFluidTypes;
+import net.arcwielder.tfcpulped.fluid.PulpedFluids;
+import net.arcwielder.tfcpulped.item.PulpedCreativeModeTabs;
+import net.arcwielder.tfcpulped.item.PulpedItems;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -16,6 +17,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.loading.FMLEnvironment;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -27,18 +29,20 @@ public class TFCPulped {
     public TFCPulped() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModCreativeModeTabs.register(modEventBus);
+        PulpedCreativeModeTabs.register(modEventBus);
 
-        ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
+        PulpedItems.register(modEventBus);
+        PulpedBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
 
-        ModFluids.register(modEventBus);
-        ModFluidTypes.register(modEventBus);
+        PulpedFluids.register(modEventBus);
+        PulpedFluidTypes.register(modEventBus);
+
+        ForgeEventHandler.init();
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

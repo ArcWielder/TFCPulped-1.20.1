@@ -1,9 +1,7 @@
 package net.arcwielder.tfcpulped.item;
 
 import net.arcwielder.tfcpulped.TFCPulped;
-import net.arcwielder.tfcpulped.block.ModBlocks;
-import net.arcwielder.tfcpulped.fluid.ModFluids;
-import net.minecraft.world.item.BlockItem;
+import net.arcwielder.tfcpulped.fluid.PulpedFluids;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -12,7 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class ModItems {
+public class PulpedItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TFCPulped.MOD_ID);
 
@@ -99,16 +97,18 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RAW_WOOD_PULP_BUCKET = ITEMS.register("raw_wood_pulp_bucket",
-            () -> new BucketItem(ModFluids.SOURCE_RAW_WOOD_PULP,
+            () -> new BucketItem(PulpedFluids.SOURCE_RAW_WOOD_PULP,
                     new Item.Properties()
                             .stacksTo(1)
                             .craftRemainder(Items.BUCKET)));
     public static final RegistryObject<Item> BLEACHED_WOOD_PULP_BUCKET = ITEMS.register("bleached_wood_pulp_bucket",
-            () -> new BucketItem(ModFluids.SOURCE_BLEACHED_WOOD_PULP,
+            () -> new BucketItem(PulpedFluids.SOURCE_BLEACHED_WOOD_PULP,
                     new Item.Properties()
                             .stacksTo(1)
                             .craftRemainder(Items.BUCKET)));
 
+    public static final RegistryObject<Item> MANGLED_PULP = ITEMS.register("mangled_pulp",
+            () -> new Item((new Item.Properties())));
     public static final RegistryObject<Item> DRIED_PULP_SHEET = ITEMS.register("dried_pulp_sheet",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LIMED_PULP_SHEET = ITEMS.register("limed_pulp_sheet",
