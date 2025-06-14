@@ -49,9 +49,10 @@
   "fluid_type.tfcpulped.raw_wood_pulp_fluid": "Raw Wood Pulp",
   "fluid_type.tfcpulped.bleached_wood_pulp_fluid": "Bleached Wood Pulp",
 
+  "item.tfcpulped.mangled_pulp": "Mangled Pulp",
+  "item.tfcpulped.pulp_sheet": "Pulp Sheet",
   "item.tfcpulped.dried_pulp_sheet": "Dried Pulp Sheet",
   "item.tfcpulped.limed_pulp_sheet": "Limed Pulp Sheet",
-  "item.tfcpulped.refined_pulp_sheet": "Refined Pulp Sheet",
 
   "creativetab.tfc_pulped": "TFC Pulped"
 }

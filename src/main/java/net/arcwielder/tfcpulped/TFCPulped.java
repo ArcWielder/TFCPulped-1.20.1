@@ -1,13 +1,13 @@
 package net.arcwielder.tfcpulped;
 
 import com.mojang.logging.LogUtils;
-import net.arcwielder.tfcpulped.block.PulpedBlocks;
-import net.arcwielder.tfcpulped.fluid.PulpedFluidTypes;
-import net.arcwielder.tfcpulped.fluid.PulpedFluids;
-import net.arcwielder.tfcpulped.item.PulpedCreativeModeTabs;
-import net.arcwielder.tfcpulped.item.PulpedItems;
+import net.arcwielder.tfcpulped.common.blocks.PulpedBlocks;
+import net.arcwielder.tfcpulped.common.fluids.PulpedFluidTypes;
+import net.arcwielder.tfcpulped.common.fluids.PulpedFluids;
+import net.arcwielder.tfcpulped.common.items.PulpedCreativeModeTabs;
+import net.arcwielder.tfcpulped.common.items.PulpedItems;
+import net.arcwielder.tfcpulped.util.loot.PulpedLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -17,7 +17,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.loading.FMLEnvironment;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -33,6 +32,8 @@ public class TFCPulped {
 
         PulpedItems.register(modEventBus);
         PulpedBlocks.register(modEventBus);
+
+        PulpedLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,6 +1,6 @@
 {
   "ingredient": {
-    "tag": "tfc:tree_barks"
+    "tag": "tfcpulped:tree_barks"
   },
   "size": "small",
   "weight": "light"

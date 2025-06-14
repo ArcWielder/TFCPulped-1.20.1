@@ -1,6 +1,6 @@
 {
   "ingredient": {
-    "tag": "tfc:wood_chips"
+    "tag": "tfcpulped:wood_chips"
   },
   "size": "small",
   "weight": "medium"
