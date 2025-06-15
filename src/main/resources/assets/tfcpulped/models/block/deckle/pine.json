@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "tfc:block/deckle/pine",
-		"particle": "tfc:block/deckle/pine"
+		"0": "tfcpulped:block/deckle/pine",
+		"particle": "tfcpulped:block/deckle/pine"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "tfc:block/deckle/mangrove",
-		"particle": "tfc:block/deckle/mangrove"
+		"0": "tfcpulped:block/deckle/mangrove",
+		"particle": "tfcpulped:block/deckle/mangrove"
 	},
 	"elements": [
 		{

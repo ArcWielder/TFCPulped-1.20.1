@@ -1,6 +1,7 @@
 package net.arcwielder.tfcpulped.common.items;
 
 import net.arcwielder.tfcpulped.TFCPulped;
+import net.arcwielder.tfcpulped.common.blocks.PulpedBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -37,6 +38,7 @@ public class PulpedCreativeModeTabs {
                         output.accept(PulpedItems.SYCAMORE_BARK.get());
                         output.accept(PulpedItems.WHITE_CEDAR_BARK.get());
                         output.accept(PulpedItems.WILLOW_BARK.get());
+
                         output.accept(PulpedItems.ACACIA_CHIPS.get());
                         output.accept(PulpedItems.ASH_CHIPS.get());
                         output.accept(PulpedItems.ASPEN_CHIPS.get());
@@ -59,6 +61,28 @@ public class PulpedCreativeModeTabs {
                         output.accept(PulpedItems.WILLOW_CHIPS.get());
                         output.accept(PulpedItems.RAW_WOOD_PULP_BUCKET.get());
                         output.accept(PulpedItems.BLEACHED_WOOD_PULP_BUCKET.get());
+
+                        output.accept(PulpedBlocks.ACACIA_DECKLE.get());
+                        output.accept(PulpedBlocks.ASH_DECKLE.get());
+                        output.accept(PulpedBlocks.ASPEN_DECKLE.get());
+                        output.accept(PulpedBlocks.BIRCH_DECKLE.get());
+                        output.accept(PulpedBlocks.BLACKWOOD_DECKLE.get());
+                        output.accept(PulpedBlocks.CHESTNUT_DECKLE.get());
+                        output.accept(PulpedBlocks.DOUGLAS_FIR_DECKLE.get());
+                        output.accept(PulpedBlocks.HICKORY_DECKLE.get());
+                        output.accept(PulpedBlocks.KAPOK_DECKLE.get());
+                        output.accept(PulpedBlocks.MANGROVE_DECKLE.get());
+                        output.accept(PulpedBlocks.MAPLE_DECKLE.get());
+                        output.accept(PulpedBlocks.OAK_DECKLE.get());
+                        output.accept(PulpedBlocks.PALM_DECKLE.get());
+                        output.accept(PulpedBlocks.PINE_DECKLE.get());
+                        output.accept(PulpedBlocks.ROSEWOOD_DECKLE.get());
+                        output.accept(PulpedBlocks.SEQUOIA_DECKLE.get());
+                        output.accept(PulpedBlocks.SPRUCE_DECKLE.get());
+                        output.accept(PulpedBlocks.SYCAMORE_DECKLE.get());
+                        output.accept(PulpedBlocks.WHITE_CEDAR_DECKLE.get());
+                        output.accept(PulpedBlocks.WILLOW_DECKLE.get());
+
                         output.accept(PulpedItems.MANGLED_PULP.get());
                         output.accept(PulpedItems.PULP_SHEET.get());
                         output.accept(PulpedItems.DRIED_PULP_SHEET.get());

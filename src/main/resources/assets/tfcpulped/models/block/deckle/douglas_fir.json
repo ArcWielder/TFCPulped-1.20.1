@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "tfc:block/deckle/douglas_fir",
-		"particle": "tfc:block/deckle/douglas_fir"
+		"0": "tfcpulped:block/deckle/douglas_fir",
+		"particle": "tfcpulped:block/deckle/douglas_fir"
 	},
 	"elements": [
 		{

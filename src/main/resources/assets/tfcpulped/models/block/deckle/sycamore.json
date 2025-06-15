@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "tfc:block/deckle/sycamore",
-		"particle": "tfc:block/deckle/sycamore"
+		"0": "tfcpulped:block/deckle/sycamore",
+		"particle": "tfcpulped:block/deckle/sycamore"
 	},
 	"elements": [
 		{

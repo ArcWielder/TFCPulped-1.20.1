@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "tfc:block/deckle/maple",
-		"particle": "tfc:block/deckle/maple"
+		"0": "tfcpulped:block/deckle/maple",
+		"particle": "tfcpulped:block/deckle/maple"
 	},
 	"elements": [
 		{

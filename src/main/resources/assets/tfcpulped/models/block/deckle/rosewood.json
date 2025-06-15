@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "tfc:block/deckle/rosewood",
-		"particle": "tfc:block/deckle/rosewood"
+		"0": "tfcpulped:block/deckle/rosewood",
+		"particle": "tfcpulped:block/deckle/rosewood"
 	},
 	"elements": [
 		{

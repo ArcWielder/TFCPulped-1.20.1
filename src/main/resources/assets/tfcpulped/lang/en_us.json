@@ -54,5 +54,27 @@
   "item.tfcpulped.dried_pulp_sheet": "Dried Pulp Sheet",
   "item.tfcpulped.limed_pulp_sheet": "Limed Pulp Sheet",
 
+  "block.tfcpulped.deckle.acacia": "Acacia Deckle",
+  "block.tfcpulped.deckle.ash": "Ash Deckle",
+  "block.tfcpulped.deckle.aspen": "Aspen Deckle",
+  "block.tfcpulped.deckle.birch": "Birch Deckle",
+  "block.tfcpulped.deckle.blackwood": "Blackwood Deckle",
+  "block.tfcpulped.deckle.chestnut": "Chestnut Deckle",
+  "block.tfcpulped.deckle.douglas_fir": "Douglas Fir Deckle",
+  "block.tfcpulped.deckle.hickory": "Hickory Deckle",
+  "block.tfcpulped.deckle.kapok": "Kapok Deckle",
+  "block.tfcpulped.deckle.mangrove": "Mangrove Deckle",
+  "block.tfcpulped.deckle.maple": "Maple Deckle",
+  "block.tfcpulped.deckle.oak": "Oak Deckle",
+  "block.tfcpulped.deckle.palm": "Palm Deckle",
+  "block.tfcpulped.deckle.pine": "Pine Deckle",
+  "block.tfcpulped.deckle.rosewood": "Rosewood Deckle",
+  "block.tfcpulped.deckle.sequoia": "Sequoia Deckle",
+  "block.tfcpulped.deckle.spruce": "Spruce Deckle",
+  "block.tfcpulped.deckle.sycamore": "Sycamore Deckle",
+  "block.tfcpulped.deckle.white_cedar": "White Cedar Deckle",
+  "block.tfcpulped.deckle.willow": "Willow Deckle",
+
+
   "creativetab.tfc_pulped": "TFC Pulped"
 }

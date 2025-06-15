@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "tfc:block/deckle/kapok",
-		"particle": "tfc:block/deckle/kapok"
+		"0": "tfcpulped:block/deckle/kapok",
+		"particle": "tfcpulped:block/deckle/kapok"
 	},
 	"elements": [
 		{

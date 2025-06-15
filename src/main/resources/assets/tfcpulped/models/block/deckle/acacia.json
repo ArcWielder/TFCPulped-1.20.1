@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "tfc:block/deckle/acacia",
-		"particle": "tfc:block/deckle/acacia"
+		"0": "tfcpulped:block/deckle/acacia",
+		"particle": "tfcpulped:block/deckle/acacia"
 	},
 	"elements": [
 		{

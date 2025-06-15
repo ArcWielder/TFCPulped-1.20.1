@@ -1,7 +1,6 @@
 package net.arcwielder.tfcpulped.common.blocks;
 
 import net.arcwielder.tfcpulped.TFCPulped;
-import net.arcwielder.tfcpulped.common.blockentities.DeckleBlockEntity;
 import net.arcwielder.tfcpulped.common.fluids.PulpedFluids;
 import net.arcwielder.tfcpulped.common.items.PulpedItems;
 import net.minecraft.world.item.BlockItem;
@@ -9,7 +8,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -28,45 +26,47 @@ public class PulpedBlocks {
             () -> new LiquidBlock(PulpedFluids.SOURCE_BLEACHED_WOOD_PULP, BlockBehaviour.Properties.copy(Blocks.WATER)));
 
     public static final RegistryObject<Block> ACACIA_DECKLE = registerBlock("deckle/acacia",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> ASH_DECKLE = registerBlock("deckle/ash",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> ASPEN_DECKLE = registerBlock("deckle/aspen",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> BIRCH_DECKLE = registerBlock("deckle/birch",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> BLACKWOOD_DECKLE = registerBlock("deckle/blackwood",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> CHESTNUT_DECKLE = registerBlock("deckle/chestnut",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> DOUGLAS_FIR_DECKLE = registerBlock("deckle/douglas_fir",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> HICKORY_DECKLE = registerBlock("deckle/hickory",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> KAPOK_DECKLE = registerBlock("deckle/kapok",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> MANGROVE_DECKLE = registerBlock("deckle/mangrove",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> MAPLE_DECKLE = registerBlock("deckle/maple",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> OAK_DECKLE = registerBlock("deckle/oak",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> PALM_DECKLE = registerBlock("deckle/palm",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> PINE_DECKLE = registerBlock("deckle/pine",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> ROSEWOOD_DECKLE = registerBlock("deckle/rosewood",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> SEQUOIA_DECKLE = registerBlock("deckle/sequoia",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> SPRUCE_DECKLE = registerBlock("deckle/spruce",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> SYCAMORE_DECKLE = registerBlock("deckle/sycamore",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> WHITE_CEDAR_DECKLE = registerBlock("deckle/white_cedar",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> WILLOW_DECKLE = registerBlock("deckle/willow",
-            () -> new DeckleBlockEntity(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+            () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+
+
 
 //    public static final Id<Block>
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

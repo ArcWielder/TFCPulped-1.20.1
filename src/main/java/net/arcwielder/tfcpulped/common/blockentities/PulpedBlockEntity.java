@@ -1,4 +1,4 @@
 package net.arcwielder.tfcpulped.common.blockentities;
 
-public class DeckleBlockEntity {
+public class PulpedBlockEntity {
 }

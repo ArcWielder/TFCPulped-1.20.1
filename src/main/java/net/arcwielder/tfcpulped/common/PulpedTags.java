@@ -1,4 +1,4 @@
-package net.arcwielder.tfcpulped.util;
+package net.arcwielder.tfcpulped.common;
 
 import net.arcwielder.tfcpulped.TFCPulped;
 import net.minecraft.resources.ResourceLocation;
@@ -10,6 +10,7 @@ import net.minecraft.world.level.block.Block;
 
 public class PulpedTags {
     public static class Blocks {
+        public static final TagKey<Block> DECKLES = tag("deckles");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(TFCPulped.MOD_ID, name));
@@ -40,8 +41,10 @@ public class PulpedTags {
         public static final TagKey<Item> TREE_BARKS = tag("tree_barks");
         public static final TagKey<Item> WOOD_CHIPS = tag("wood_chips");
 
-        private static TagKey<Item> tag(String name) {
+        private static TagKey<Item> tag(String name)
+        {
             return ItemTags.create(new ResourceLocation(TFCPulped.MOD_ID, name));
         }
     }
+
 }

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "tfc:block/deckle/aspen",
-		"particle": "tfc:block/deckle/aspen"
+		"0": "tfcpulped:block/deckle/aspen",
+		"particle": "tfcpulped:block/deckle/aspen"
 	},
 	"elements": [
 		{
