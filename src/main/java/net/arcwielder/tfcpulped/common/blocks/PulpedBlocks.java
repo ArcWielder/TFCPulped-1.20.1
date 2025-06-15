@@ -25,7 +25,7 @@ public class PulpedBlocks {
     public static final RegistryObject<LiquidBlock> BLEACHED_WOOD_PULP_BLOCK = BLOCKS.register("bleached_wood_pulp_block",
             () -> new LiquidBlock(PulpedFluids.SOURCE_BLEACHED_WOOD_PULP, BlockBehaviour.Properties.copy(Blocks.WATER)));
 
-    public static final RegistryObject<Block> ACACIA_DECKLE = registerBlock("deckle/acacia",
+    public static final RegistryObject<DeckleBlock> ACACIA_DECKLE = registerBlock("deckle/acacia",
             () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
     public static final RegistryObject<Block> ASH_DECKLE = registerBlock("deckle/ash",
             () -> new DeckleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "empty": {
+      "model": "tfcpulped:block/deckle/empty/blackwood"
+    }
+  }
+}
