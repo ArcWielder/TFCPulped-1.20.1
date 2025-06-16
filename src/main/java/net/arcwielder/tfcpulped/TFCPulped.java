@@ -1,6 +1,7 @@
 package net.arcwielder.tfcpulped;
 
 import com.mojang.logging.LogUtils;
+import net.arcwielder.tfcpulped.common.blockentities.PulpedBlockEntity;
 import net.arcwielder.tfcpulped.common.blocks.PulpedBlocks;
 import net.arcwielder.tfcpulped.common.fluids.PulpedFluidTypes;
 import net.arcwielder.tfcpulped.common.fluids.PulpedFluids;
@@ -32,6 +33,8 @@ public class TFCPulped {
 
         PulpedItems.register(modEventBus);
         PulpedBlocks.register(modEventBus);
+
+        PulpedBlockEntity.register(modEventBus);
 
         PulpedLootModifiers.register(modEventBus);
 
